@@ -34,6 +34,12 @@ function DarkModeApp() {
         {data.map((item) => (
           <Article key={item.id} {...item} />
         ))}
+        <p>
+          Created by{" "}
+          <a className="link-color" href="https://www.github.com/feelchi1star">
+            Felix Chinonso Emmanuel
+          </a>
+        </p>
       </section>
     </main>
   );

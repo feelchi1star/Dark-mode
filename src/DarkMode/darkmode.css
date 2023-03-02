@@ -93,3 +93,7 @@ Navbar
   letter-spacing: 2px;
   cursor: pointer;
 }
+
+.link-color {
+  color: var(--clr-primary);
+}
